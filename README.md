@@ -17,3 +17,7 @@
 # diff'ing
 
 *  git diff <branch1_or_id1> <branch2_or_id2> -- filename
+
+# fixing commit credentials
+*  git config user.name <username>
+*  git -c "user.name=<uname>" -c "user.email=<email>" commit ...
