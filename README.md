@@ -20,4 +20,5 @@
 
 # fixing commit credentials
 *  git config user.name <username>
+*  git config user.email <email>
 *  git -c "user.name=<uname>" -c "user.email=<email>" commit ...
